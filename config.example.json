@@ -1,0 +1,19 @@
+{
+  "slack_webhook": "",
+  "timeout_seconds": 15,
+  "max_load_seconds": 5,
+  "pages": [
+    {
+      "name": "Main landing page",
+      "url": "https://example.com/landing-page/",
+      "form_selector_hints": ["name=\"email\""],
+      "required_tags": ["GTM-", "G-"]
+    },
+    {
+      "name": "Contact page",
+      "url": "https://example.com/contact/",
+      "form_selector_hints": ["<form"],
+      "required_tags": ["GTM-"]
+    }
+  ]
+}
